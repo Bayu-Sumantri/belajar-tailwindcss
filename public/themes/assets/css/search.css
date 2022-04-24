@@ -1,0 +1,21 @@
+.container-1 input#search{
+   width: auto;
+   height: 50px;
+   background: #5a5a5a;
+   border: none;
+   font-size: 10pt;
+   float: right;
+   color: white;
+   padding-left: 30px;
+   padding-right: 45px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+  
+    
+     -webkit-transition: background .55s ease;
+   -moz-transition: background .55s ease;
+   -ms-transition: background .55s ease;
+   -o-transition: background .55s ease;
+   transition: background .55s ease;
+ }
