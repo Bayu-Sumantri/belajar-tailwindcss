@@ -2,26 +2,76 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="themes/assets/ico/logopf.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar tailwind</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="themes/assets/ico/logopf.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>promotins food</title>
 </head>
+<!--navbar-->
+
 <body>
-    <div class="h-screen bg-gray-100 flex align-middle content-center items-center justify-center">
-        <div class="flex flex-col w-full h-full  bg-white mx-auto p-6 border-b rounded-xl text-center shadow-md">
-              <img src="themes/assets/ico/logopf.ico" alt="logo" class="w-32 h-32 self-center">
-              <span class="font-bold text-3xl mb-4"></span>
-              <form action="index.html" class="mb-4">
-                    <input type="text" placeholder="username" class="mb-4 text-center border-0 border-b-2 p-3 w-1/2 hover:animate-pulse">
-                    <input type="text" placeholder="password" class="mb-4 text-center border-0 border-b-2 p-3 w-1/2 hover:animate-pulse">      
-              </form>
-              <a href="index.html" class="bg-blue-600 p-5 px-2 py-2 w-full rounded-xl text-white font-bold hover:bg-blue-800">Masuk</a>
-              <span class=" text-xs">Tidak punya akun? Daftar<a href="#"> disini</a></span>
+  <!-- Navbar goes here -->
+  <nav class="bg-neutral/20 shadow-md">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between">
+        <div class="flex space-x-7">
+          <!-- Website Logo -->
+          <div>
+            <a href="index.html" class="flex items-center py-4 px-2">
+              <img src="themes/assets/ico/logopf.ico" alt="Logo" class="h-8 w-8 mr-2" />
+              <span class="font-semibold hover:text-white text-gray-500 text-lg">Promotins food</span>
+            </a>
+          </div>
+          <!-- Primary Navbar items -->
+          <div class="hidden md:flex items-center space-x-1">
+            <a href="index.html"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Home</a>
+            <a href="about.html"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About
+              Us</a>
+            <a href="contact.html"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact</a>
+            <a href="login.html"
+              class="py-4 px-2 text-gray-500 font-semibold border-b-4 border-green-500 hover:text-green-500 transition duration-300">Sign
+              in
+            </a>
+            <a href="cooise file.html"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Cooise
+              File
+            </a>
+          </div>
         </div>
+      </div>
     </div>
+  </nav>
+
+  <div class="h-screen bg-gray-100 flex align-middle content-center items-center justify-center">
+    <div class="flex flex-col w-full max-w-3xl mx-auto p-6 border-b rounded-xl text-center shadow-lg">
+      <img src="themes/assets/ico/logopf.ico" alt="logo" class="w-32 h-32 self-center">
+      <span class="font-bold text-3xl mb-4"></span>
+      <form action="index.html" class="mb-4">
+        <input type="text" placeholder="username"
+          class="mb-4 text-center border-0 border-b-2 p-3 w-1/2 hover:animate-pulse">
+        <input type="password" placeholder="password"
+          class="mb-4 text-center border-0 border-b-2 p-3 w-1/2 hover:animate-pulse">
+      </form>
+      <a href="succes.html"
+        class="bg-blue-600 p-5 px-2 py-2 w-full rounded-xl text-white font-bold hover:bg-blue-800">Masuk</a>
+      <span class="m-3 text-xs">Tidak punya akun? Daftar<a href="registrasi.html"
+          class="text-blue-500 m-1">disini</a></span>
+    </div>
+  </div>
+
+  <div class="bg-black px-2 py-2 ">
+    <p class="pt4 mr-2 text-center text-white">2021 Copyright By Team PF
+      <a href="https://github.com/Bayu-Sumantri/tugas-kelompok-new-1">🐱‍💻</a> All Rights Reserved.</p>
+    <a href="index.html" class="inline-block text-right w-full text-white hover:text-blue-500">
+      Home
+    </a>
+  </div>
+
 </body>
 
 
